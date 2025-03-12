@@ -19,7 +19,7 @@ depclean --help
 ### From Source
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/depclean.git
+   git clone https://github.com/suhasamaresh/depclean.git
    cd depclean
    ```
 2. Build and run:
