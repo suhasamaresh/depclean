@@ -39,15 +39,7 @@ Output includes:
 - Duplicate dependency detection
 - Version alignment suggestions
 
-## Example Output
-```plaintext
-[+] Found 12 duplicate dependencies:
-  - `serde` (versions: 1.0.152, 1.0.155)
-  - `tokio` (versions: 1.25.0, 1.27.0)
-[!] Suggested alignments:
-  - Upgrade `serde` to 1.0.155 (used by 8 crates)
-  - Unify `tokio` to 1.27.0 (compatible with all features)
-```
+
 
 ## Contributing
 1. Fork the repository
