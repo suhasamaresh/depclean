@@ -1,6 +1,6 @@
 [package]
 name = "depclean"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Suhas A"]
 edition = "2021"
 description = "A tool to analyze and optimize project dependencies"
