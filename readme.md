@@ -1,4 +1,4 @@
-```markdown
+
 # Depclean
 
 Depclean is a Rust command-line tool to analyze and optimize project dependencies by parsing `Cargo.lock`, building dependency graphs, detecting duplicates, and suggesting version alignments.
@@ -9,6 +9,7 @@ Depclean is a Rust command-line tool to analyze and optimize project dependencie
 ```bash
 cargo install depclean
 ```
+
 
 Verify installation:
 ```bash
