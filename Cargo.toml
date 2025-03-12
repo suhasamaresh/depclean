@@ -6,7 +6,7 @@ edition = "2021"
 description = "A tool to analyze and optimize project dependencies"
 homepage = "https://github.com/suhasamaresh/depclean"
 repository = "https://github.com/suhasamaresh/depclean"
-license = "MIT"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 petgraph = "0.6"
