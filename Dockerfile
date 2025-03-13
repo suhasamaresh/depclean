@@ -7,7 +7,7 @@ COPY src ./src
 RUN cargo build --release
 
 #Stage 2 : Create a minimal runtime image
-FROM debian:buster-slim
-COPY --from=builder /usr/src/depclean/target/release/depclean /usr/local/bin/depclean
-ENTRYPOINT ["depclean"]
-CMD ["--help"]
+FROM debian:bookworm-slim  # Bookworm has OpenSSL 3.x
+COPY ./depclean /usr/local/bin/depclean
+RUN chmod +x /usr/local/bin/depclean  # Ensure executable
+CMD ["depclean"]
